@@ -42,7 +42,7 @@ Create a new directory named data with the following command:
 mkdir data
 ```
 
-Download the file [graph.zip]() and unzip it in the directory data.
+Download the file [graph.db.zip](https://github.com/gquercini/neo4j-assignment/raw/master/graph.db.zip) and unzip it in the directory data.
 
 ### Launch the Neo4j server
 
