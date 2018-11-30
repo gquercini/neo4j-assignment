@@ -46,13 +46,13 @@ Download the file [graph.zip]() and unzip it in the directory data.
 
 ### Launch the Neo4j server
 
-Mac and Linux users, execute the following command:
+**Mac and Linux users**, execute the following command:
 
 ```
 docker run --env=NEO4J_AUTH=none --publish=7474:7474 --volume=$PWD/data:/data neo4j:2.3
 ```
 
-Windows users, execute the following command:
+**Windows users**, execute the following command:
 
 ```
 docker run --env=NEO4J_AUTH=none --publish=7474:7474 --volume=%cd%/data:/data neo4j:2.3
